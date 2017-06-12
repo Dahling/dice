@@ -1,0 +1,107 @@
+.container {
+  border: 2px solid green;
+  display: flex;
+  background-color: black;
+  margin: auto;
+  width: 98%; }
+
+.first-face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 104px;
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px;
+  object-fit: contain; }
+
+.second-face {
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 104px;
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px; }
+
+.second-face .pip:nth-of-type(2) {
+  align-self: flex-end; }
+
+.third-face {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 104px;
+  height: 104px;
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px; }
+
+.third-face .pip:nth-of-type(2) {
+  align-self: center; }
+
+.fourth-face {
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 104px;
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px; }
+
+.fourth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.fifth-face {
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 104px;
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px; }
+
+.fifth-face .column:nth-of-type(2) {
+  justify-content: center; }
+
+.fifth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.sixth-face {
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 104px;
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px; }
+
+.sixth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.pip {
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  margin: 0px; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*# sourceMappingURL=output.css.map */
